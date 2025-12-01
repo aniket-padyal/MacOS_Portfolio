@@ -23,7 +23,7 @@ const renderText = (text, className, baseWeight = 400) => {
 
 // Function to set up hover effect on text
 const setupTextHover = (container, type) => {
-  if (!container) return;
+  if (!container) return () => {};
 
   const letters = container.querySelectorAll("span");
   const { min, max, default: base } = FONT_WEIGHTS[type];
