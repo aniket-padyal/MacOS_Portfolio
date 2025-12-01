@@ -51,7 +51,9 @@ const setupTextHover = (container, type) => {
     });
   };
 
-  const handleMouseLeave = () => animateLetter(letters, base, 0.3);
+  const handleMouseLeave = () => {
+    letters.forEach((letter) => animateLetter(letter, base, 0.3));
+  };
 
   container.addEventListener("mousemove", handleMouseMove);
   container.addEventListener("mouseleave", handleMouseLeave);
@@ -73,8 +75,8 @@ const Welcome = () => {
     const subtitleCleanup = setupTextHover(subtitleRef.current, "subtitle");
 
     return () => {
-      titleCleanup;
-      subtitleCleanup;
+      titleCleanup();
+      subtitleCleanup();
     };
   }, []);
 
