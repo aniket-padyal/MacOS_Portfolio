@@ -4,20 +4,27 @@ import { locations } from "#constants";
 
 const DEFAULT_LOCATION = locations.work;
 
-const useLoactionStore = create(
+const useLocationStore = create(
   immer((set) => ({
-    activeLoaction: DEFAULT_LOCATION,
+    rootLocations: locations,
+    activeLocation: DEFAULT_LOCATION,
 
-    setActiveLocation: (location = null) =>
+    setActiveLocation: (location) =>
       set((state) => {
-        state.activeLoaction = location;
+        state.activeLocation = location;
       }),
 
-    resetActiveLocation: () =>
+    setActiveLocationByKey: (key) =>
       set((state) => {
-        state.activeLoaction = DEFAULT_LOCATION;
+        const loc = state.rootLocations[key];
+        if (loc) state.activeLocation = loc;
+      }),
+
+    resetLocation: () =>
+      set((state) => {
+        state.activeLocation = DEFAULT_LOCATION;
       }),
   }))
 );
 
-export default useLoactionStore;
+export default useLocationStore;
