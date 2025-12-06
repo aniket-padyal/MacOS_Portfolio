@@ -1,51 +1,51 @@
-🍎 macOS-Style Portfolio Website
+# **macOS Portfolio**
 
-A highly immersive portfolio experience inspired by macOS UI & interactions — built from scratch to feel like you’re actually using a Mac on the web.
+<p align="center">
+  <em>A macOS–inspired interactive portfolio built with React, Tailwind CSS & GSAP.</em>
+</p>
 
-✨ Overview
+---
 
-This project recreates the look, feel, animations, and behavior of macOS using modern frontend technologies.
-From the Dock, Finder windows, dynamic wallpapers, and smooth micro-interactions, every detail is crafted to deliver a delightful and familiar user experience.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=ffffff" alt="GSAP" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
+</p>
 
-It’s not just a portfolio — it’s a full macOS simulation running inside your browser.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aniket-padyal&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
 
-🚀 Features
+---
 
-🖥️ macOS-inspired layout — Dock, Menu Bar, Finder, windows & blur effects
+## **✨ Overview**
 
-⚡ Smooth animations using GSAP
+This project is a **macOS–style portfolio website** that reimagines a personal portfolio as a **desktop environment**.  
+Instead of a typical scrolling portfolio, visitors interact with:
 
-💻 React-powered UI for component-driven functionality
+- A **dock** similar to macOS
+- A **Finder-like window** to browse sections such as _Work_, _About_, _Resume_, and more
+- Smooth **animations and transitions** powered by GSAP
 
-🎨 Tailwind CSS for clean, responsive, utility-first styling
+It’s built to showcase both **frontend skills** and a strong focus on **UI/UX details**.
 
-🪟 Open / Close window system
+---
 
-📁 Finder-style navigation (Work, About, Resume, Trash, etc.)
+## **🎯 Features**
 
-⏱️ Real-time system clock like macOS
+- 🖥️ **macOS-inspired UI** – Dock, windowed layout, and desktop-like experience  
+- 📂 **Finder-style sections** – Tabs like _Work_, _About_, _Resume_, _Trash_, etc.  
+- 🎬 **Smooth animations** – GSAP-powered transitions and micro-interactions  
+- 📱 **Responsive design** – Optimized for desktop, tablet, and mobile  
+- ⚡ **Fast & modern stack** – React + Tailwind CSS + GSAP  
+---
 
-🎭 Glassmorphism & layered depth to mimic native UI
+## **🛠️ Tech Stack**
 
-📱 Fully responsive across devices
+- **Frontend:** React  
+- **Styling:** Tailwind CSS  
+- **Animations:** GSAP (GreenSock Animation Platform)  
+---
 
-🛠️ Tech Stack
-Frontend
-Technology	Purpose
-React	Component architecture & state management
-Tailwind CSS	Styling with speed & consistency
-GSAP	High-performance animations & transitions
 
-📂 Folder Structure (Simplified)
-src/
-  ├── components/
-  ├── constants/
-  ├── hoc/
-  ├── store/
-  ├── windows/
-  └── App.jsx
-
-👨‍💻 About the Developer
-
-Crafted with curiosity, attention to detail, and a love for Apple’s design philosophy.
-This project reflects my journey in frontend engineering, UI/UX, animations, and creative web experiences.
