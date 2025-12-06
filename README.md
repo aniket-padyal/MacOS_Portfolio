@@ -36,7 +36,7 @@ It’s built to showcase both **frontend skills** and a strong focus on **UI/UX 
 - 🖥️ **macOS-inspired UI** – Dock, windowed layout, and desktop-like experience  
 - 📂 **Finder-style sections** – Tabs like _Work_, _About_, _Resume_, _Trash_, etc.  
 - 🎬 **Smooth animations** – GSAP-powered transitions and micro-interactions  
-- 📱 **Responsive design** – Optimized for desktop, tablet, and mobile  
+- 📱 **Responsive design** – Optimized for desktop, tablet 
 - ⚡ **Fast & modern stack** – React + Tailwind CSS + GSAP  
 ---
 
