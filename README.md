@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=ffffff" alt="GSAP" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
 </p>
 
 <p align="center">
@@ -47,5 +46,10 @@ It’s built to showcase both **frontend skills** and a strong focus on **UI/UX 
 - **Styling:** Tailwind CSS  
 - **Animations:** GSAP (GreenSock Animation Platform)  
 ---
+
+## **📱 Mobile Optimization Note**
+
+- This project is not fully optimized for mobile devices or smaller screens yet.
+- Mobile responsiveness and layout improvements will be added soon.
 
 
