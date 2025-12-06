@@ -1,16 +1,51 @@
-# React + Vite
+🍎 macOS-Style Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly immersive portfolio experience inspired by macOS UI & interactions — built from scratch to feel like you’re actually using a Mac on the web.
 
-Currently, two official plugins are available:
+✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project recreates the look, feel, animations, and behavior of macOS using modern frontend technologies.
+From the Dock, Finder windows, dynamic wallpapers, and smooth micro-interactions, every detail is crafted to deliver a delightful and familiar user experience.
 
-## React Compiler
+It’s not just a portfolio — it’s a full macOS simulation running inside your browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
 
-## Expanding the ESLint configuration
+🖥️ macOS-inspired layout — Dock, Menu Bar, Finder, windows & blur effects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Smooth animations using GSAP
+
+💻 React-powered UI for component-driven functionality
+
+🎨 Tailwind CSS for clean, responsive, utility-first styling
+
+🪟 Open / Close window system
+
+📁 Finder-style navigation (Work, About, Resume, Trash, etc.)
+
+⏱️ Real-time system clock like macOS
+
+🎭 Glassmorphism & layered depth to mimic native UI
+
+📱 Fully responsive across devices
+
+🛠️ Tech Stack
+Frontend
+Technology	Purpose
+React	Component architecture & state management
+Tailwind CSS	Styling with speed & consistency
+GSAP	High-performance animations & transitions
+
+📂 Folder Structure (Simplified)
+src/
+  ├── components/
+  ├── constants/
+  ├── hoc/
+  ├── store/
+  ├── windows/
+  └── App.jsx
+
+👨‍💻 About the Developer
+
+Crafted with curiosity, attention to detail, and a love for Apple’s design philosophy.
+This project reflects my journey in frontend engineering, UI/UX, animations, and creative web experiences.
