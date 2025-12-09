@@ -119,7 +119,7 @@ body {
   }
 
   #safari {
-    @apply w-3xl absolute top-40 left-2/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    @apply w-3xl h-[70vh] max-h-[80vh] absolute bottom-30 left-2/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
     .search {
       @apply flex items-center gap-3 w-2/3 bg-white border border-gray-300 rounded-lg px-3 py-2;
@@ -130,7 +130,8 @@ body {
     }
 
     .blog {
-      @apply bg-white p-10 max-w-3xl mx-auto;
+      /* @apply overflow-y-auto max-h-full p-10 max-w-3xl mx-auto; */
+      @apply overflow-y-auto max-h-[calc(100vh-250px)] p-10 max-w-3xl mx-auto;
 
       h2 {
         @apply text-xl font-bold text-pink-600 mb-10;
@@ -163,7 +164,7 @@ body {
   }
 
   #terminal {
-    @apply w-lg absolute top-32 left-1/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    @apply w-xl absolute top-32 left-1/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
     h2 {
       @apply font-bold text-sm text-center w-full;
@@ -209,7 +210,7 @@ body {
   }
 
   #contact {
-    @apply max-w-2xl absolute top-60 left-5/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden p-4;
+    @apply max-w-2xl absolute bottom-30 left-5/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden p-4;
 
     h2 {
       @apply font-bold text-sm text-center w-full;
@@ -237,7 +238,7 @@ body {
   }
 
   #photos {
-    @apply max-w-3xl absolute top-96 left-1/2 -translate-y-1/2 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    @apply max-w-2xl absolute top-70 left-1/2 -translate-y-1/2 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
 
     .sidebar {
       @apply w-3/12 flex-none bg-gray-50 border-r border-gray-200 flex flex-col p-5;
@@ -266,7 +267,7 @@ body {
     }
 
     .gallery {
-      @apply p-5;
+      @apply p-5 space-y-3 overflow-y-auto max-h-[65vh];
 
       ul {
         @apply grid grid-cols-5 grid-rows-5 gap-2.5;
@@ -297,20 +298,25 @@ body {
   }
 
   #resume {
-    @apply w-fit h-fit absolute top-16 left-7/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    @apply w-fit h-[80vh] absolute top-6 right-12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden flex flex-col;
 
     #window-header {
+      @apply relative z-10 flex items-center justify-between px-4 py-3 rounded-t-lg bg-gray-50 border-b border-gray-200 select-none text-sm text-gray-400;
       h2 {
         @apply font-bold text-sm text-center flex-1;
       }
     }
+
+    .resume-body {
+      @apply max-h-[calc(80vh-56px)] overflow-y-auto p-4;
+    }
   }
 
   #finder {
-    @apply absolute w-3xl left-40 top-20 shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl;
+    @apply absolute w-2xl left-40 top-20 shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl;
 
     .sidebar {
-      @apply w-48 bg-gray-50 border-r border-gray-200 flex flex-col p-5 space-y-3;
+      @apply w-52 flex-none bg-gray-50 border-r border-gray-200 flex flex-col p-5 space-y-3 overflow-y-auto max-h-[60vh];
 
       h3 {
         @apply text-xs font-medium text-gray-400 mb-1;
@@ -393,4 +399,39 @@ body {
       }
     }
   }
+}
+
+/* Custom Scrollbar Styles */
+#photos .sidebar::-webkit-scrollbar,
+#safari .blog::-webkit-scrollbar,
+#resume::-webkit-scrollbar {
+  width: 14px;
+}
+
+#photos .sidebar::-webkit-scrollbar-track,
+#safari .blog::-webkit-scrollbar-track,
+#resume::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#photos .sidebar::-webkit-scrollbar-thumb,
+#safari .blog::-webkit-scrollbar-thumb,
+#resume::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+#photos .sidebar::-webkit-scrollbar-thumb:hover,
+#safari .blog::-webkit-scrollbar-thumb:hover,
+#resume::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#photos .sidebar::-webkit-scrollbar-thumb:active,
+#safari .blog::-webkit-scrollbar-thumb:active,
+#resume::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.6);
 }

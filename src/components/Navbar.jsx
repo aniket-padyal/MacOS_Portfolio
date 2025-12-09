@@ -11,9 +11,8 @@ const Navbar = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(dayjs().format("ddd MMM h:mm A"));
-    }, 1000); // update every second
+    }, 1000); 
 
-    // cleanup on unmount
     return () => clearInterval(interval);
   }, []);
 

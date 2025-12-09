@@ -50,6 +50,7 @@ const Finder = () => {
       <div className="bg-white flex h-full ">
         <div className="sidebar">
           {renderList("Favorites", Object.values(locations))}
+          {/* {renderList("Certificates", locations.certificate.children)} */}
           {renderList("My Projects", locations.work.children)}
         </div>
 
