@@ -1,18 +1,18 @@
 - Hi, I’m <b>Aniket</b> – a frontend developer who enjoys turning UI ideas into interactive experiences.
 - 💼 Focus: React, Tailwind, animations, and modern frontend architectures
-- 📬 Reach me on <a href="https://www.linkedin.com/in/aniket-padyal-354653308/" >LinkedIn</a>.
+- 📬 Reach me on <a href="https://www.linkedin.com/in/aniket-padyal-354653308/"  traget="_blank">LinkedIn</a>.
 - **If you like this project, consider ⭐ starring the repo — it really helps!**
 
 ---
 
-> 🔗 **Demo:** > <a href="https://mac-os-portfolio-rho.vercel.app/">click to visit portfolio</a>
+> 🔗 **Demo:** > <a href="https://mac-os-portfolio-rho.vercel.app/" traget="_blank" >click to visit portfolio</a>
 
 > 🖼️ **Screenshots:**
 >
 > <p align="center">
 >   <img src="./public/images/aniketPortfolio.png" />
-</p>
 
+</p>
 
 ---
 
@@ -59,7 +59,6 @@ You can:
 > ⚠️ Note: Mobile and small-screen optimization is still in progress. Best viewed on desktop for now.
 
 ---
-
 
 ---
 
