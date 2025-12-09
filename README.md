@@ -1,13 +1,21 @@
 - Hi, I’m <b>Aniket</b> – a frontend developer who enjoys turning UI ideas into interactive experiences.
-
 - 💼 Focus: React, Tailwind, animations, and modern frontend architectures
-
 - 📬 Reach me on <a href="https://www.linkedin.com/in/aniket-padyal-354653308/" >LinkedIn</a>.
-
 - **If you like this project, consider ⭐ starring the repo — it really helps!**
+
 ---
+
+> 🔗 **Demo:** > <a href="https://mac-os-portfolio-rho.vercel.app/">click to visit portfolio</a>
+
+> 🖼️ **Screenshots:**
+>
+> <p align="center">
+>   <img src="./public/images/aniketPortfolio.png" />
+</p>
+
+
 ---
----
+
 <!-- Project Header -->
 <p align="center">
   <img src="https://img.shields.io/badge/macOS%20Portfolio-React%20%7C%20GSAP%20%7C%20Tailwind-blueviolet?style=for-the-badge" alt="macOS Portfolio Badge" />
@@ -52,9 +60,7 @@ You can:
 
 ---
 
-## 🚀 Live Demo
 
-> 🔗 **Demo:** > <a href="https://mac-os-portfolio-rho.vercel.app/">click to visit portfolio</a>
 ---
 
 ## 📦 Deployment
