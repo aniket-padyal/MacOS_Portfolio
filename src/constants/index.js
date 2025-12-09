@@ -14,11 +14,11 @@ const navLinks = [
     name: "Resume",
     type: "resume",
   },
-  {
-    id: 5,
-    name: "Certificate",
-    type: "certificate",
-  },
+  // {
+  //   id: 5,
+  //   name: "Certificate",
+  //   type: "certificate",
+  // },
 ];
 
 const navIcons = [
@@ -263,15 +263,15 @@ const WORK_LOCATION = {
             "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
           ],
         },
-        {
-          id: 2,
-          name: "nike.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-          position: "top-5 left-40",
-        },
+        // {
+        //   id: 2,
+        //   name: "nike.com",
+        //   icon: "/images/safari.png",
+        //   kind: "file",
+        //   fileType: "url",
+        //   href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+        //   position: "top-5 left-40",
+        // },
         {
           id: 4,
           name: "nike.png",
@@ -281,15 +281,15 @@ const WORK_LOCATION = {
           position: "top-50 right-80",
           imageUrl: "/images/project-1.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-50 right-40",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-50 right-40",
+        // },
       ],
     },
 
@@ -316,15 +316,15 @@ const WORK_LOCATION = {
             "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
           ],
         },
-        {
-          id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-          position: "top-5 left-10",
-        },
+        // {
+        //   id: 2,
+        //   name: "ai-resume-analyzer.com",
+        //   icon: "/images/safari.png",
+        //   kind: "file",
+        //   fileType: "url",
+        //   href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+        //   position: "top-5 left-10",
+        // },
         {
           id: 4,
           name: "ai-resume-analyzer.png",
@@ -334,15 +334,15 @@ const WORK_LOCATION = {
           position: "top-50 left-60",
           imageUrl: "/images/project-2.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-50 left-10",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-50 left-10",
+        // },
       ],
     },
 
@@ -498,40 +498,40 @@ const TRASH_LOCATION = {
   ],
 };
 
-const CERTIFICATE_LOCATION = {
-  id: 7,
-  type: "certificate",
-  name: "Certificate",
-  icon: "/icons/certificate.svg",
-  kind: "folder",
-  children: [
-    // {
-    //   id: 1,
-    //   name: "trash1.png",
-    //   icon: "/images/image.png",
-    //   kind: "file",
-    //   fileType: "img",
-    //   position: "top-10 left-10",
-    //   imageUrl: "/images/trash-1.png",
-    // },
-    // {
-    //   id: 2,
-    //   name: "trash2.png",
-    //   icon: "/images/image.png",
-    //   kind: "file",
-    //   fileType: "img",
-    //   position: "top-40 left-80",
-    //   imageUrl: "/images/trash-2.png",
-    // },
-  ],
-};
+// const CERTIFICATE_LOCATION = {
+//   id: 7,
+//   type: "certificate",
+//   name: "Certificate",
+//   icon: "/icons/certificate.svg",
+//   kind: "folder",
+//   children: [
+//     // {
+//     //   id: 1,
+//     //   name: "trash1.png",
+//     //   icon: "/images/image.png",
+//     //   kind: "file",
+//     //   fileType: "img",
+//     //   position: "top-10 left-10",
+//     //   imageUrl: "/images/trash-1.png",
+//     // },
+//     // {
+//     //   id: 2,
+//     //   name: "trash2.png",
+//     //   icon: "/images/image.png",
+//     //   kind: "file",
+//     //   fileType: "img",
+//     //   position: "top-40 left-80",
+//     //   imageUrl: "/images/trash-2.png",
+//     // },
+//   ],
+// };
 
 export const locations = {
   work: WORK_LOCATION,
   about: ABOUT_LOCATION,
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
-  certificate: CERTIFICATE_LOCATION,
+  // certificate: CERTIFICATE_LOCATION,
 };
 
 const INITIAL_Z_INDEX = 1000;
