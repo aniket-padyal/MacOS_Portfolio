@@ -81,6 +81,27 @@ const dockApps = [
 
 const blogPosts = [
   {
+    id: 8,
+    date: "Dec 9, 2025",
+    title: "Vercel Deployment Experience",
+    image: "/images/vercel-blog8.png",
+    link: "https://www.linkedin.com/posts/aniket-padyal-354653308_using-vercel-and-the-experience-was-smooth-activity-7404151589541752833-fOIM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5n8zABT01VWvHs-MdnjZkPuwhJsuEXo7Y",
+  },
+  {
+    id: 7,
+    date: "Dec 9, 2025",
+    title: "Zustand for Global State Management in React.",
+    image: "/images/zustand-blog7.png",
+    link: "https://www.linkedin.com/posts/aniket-padyal-354653308_used-zustand-for-global-state-and-it-activity-7404150449664241665-VqkM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5n8zABT01VWvHs-MdnjZkPuwhJsuEXo7Y",
+  },
+  {
+    id: 6,
+    date: "Dec 9, 2025",
+    title: "Started learning GSAP.",
+    image: "/images/gsap-blog6.png",
+    link: "https://www.linkedin.com/posts/aniket-padyal-354653308_just-started-learning-gsap-and-wow-activity-7404133412116193280-fFZ2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5n8zABT01VWvHs-MdnjZkPuwhJsuEXo7Y",
+  },
+  {
     id: 5,
     date: "Aug 19, 2025",
     title: "Ract's useState Hook",
