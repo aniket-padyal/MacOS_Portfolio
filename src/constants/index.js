@@ -462,7 +462,7 @@ const ABOUT_LOCATION = {
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
-      position: "top-60 left-5",
+      position: "top-50 left-5",
       // subtitle: "Meet the Developer Behind the Code",
       image: "/images/aniket-3.jpg",
       description: [
