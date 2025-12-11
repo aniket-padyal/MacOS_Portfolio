@@ -81,6 +81,13 @@ const dockApps = [
 
 const blogPosts = [
   {
+    id: 9,
+    date: "Dec 11, 2025",
+    title: "BigO Notation for Beginners",
+    image: "/images/dsa-blog9.png",
+    link: "https://www.linkedin.com/posts/aniket-padyal-354653308_frontend-bigo-dsaforbeginners-activity-7404613181920133120-Z9WJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5n8zABT01VWvHs-MdnjZkPuwhJsuEXo7Y",
+  },
+  {
     id: 8,
     date: "Dec 9, 2025",
     title: "Vercel Deployment Experience",
